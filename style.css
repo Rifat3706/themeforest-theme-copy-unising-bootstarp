@@ -15,6 +15,7 @@
 }
 .background-color{
     background-color: #000000;
+    padding: 80px;
 }
 .grid{
     display: grid;
@@ -30,4 +31,25 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+}
+.about-image{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    background-color: #191919;
+}
+.about{
+    text-align: center;
+    color: white;
+    padding-top: 155px;
+    padding-left: 10px;
+    padding-right: 80px;
+}
+.about i{
+    color: #FD4766;
+    font-size: 80px;
+}
+.about h1{
+    font-size: 50px;
 }
