@@ -1,0 +1,33 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap')
+{
+    font-family: 'Poppins', sans-serif;
+}
+.bg-custom{
+    background-color: #000000;
+}
+.section-heading{
+    color: #db1eca;
+    text-align: center;
+}
+.section-heading h1{
+    font-size: 110px;
+}
+.background-color{
+    background-color: #000000;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 100px;
+}
+.icon-text{
+    color: white;
+    text-align: center;
+}
+.text-icon{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
